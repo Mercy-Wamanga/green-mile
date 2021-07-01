@@ -29,40 +29,7 @@ const sidebar = () => {
 
 				</li>
 
-				<li className="sidebar-item">
-					<a className="sidebar-link" href="pages-profile.html">
-						<i className="align-middle" data-feather="user"></i> <span className="align-middle">Suppliers</span>
-					</a>
-				</li>
-
-				<li className="sidebar-item">
-					<a className="sidebar-link" href="pages-sign-in.html">
-						<i className="align-middle" data-feather="log-in"></i> <span className="align-middle">Loaders</span>
-					</a>
-				</li>
-
-				<li className="sidebar-item">
-					<a className="sidebar-link" href="pages-sign-up.html">
-						<i className="align-middle" data-feather="user-plus"></i> <span className="align-middle">Receipts</span>
-					</a>
-				</li>
-
-				<li className="sidebar-item">
-					<a className="sidebar-link" href="pages-blank.html">
-						<i className="align-middle" data-feather="book"></i> <span className="align-middle">Invoices</span>
-					</a>
-				</li>
-
-				<li className="sidebar-item">
-					<a className="sidebar-link" href="pages-blank.html">
-						<i className="align-middle" data-feather="book"></i> <span className="align-middle">Packages</span>
-					</a>
-				</li>
-				<li className="sidebar-item">
-					<a className="sidebar-link" href="pages-blank.html">
-						<i className="align-middle" data-feather="book"></i> <span className="align-middle">Settings</span>
-					</a>
-				</li>
+			
 
 
 
