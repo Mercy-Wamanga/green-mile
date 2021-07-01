@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import AdminDashboard from './views/Dashboard/AdminDashboard'
-import "./assets/css/app.css";
+
 function App() {
   return (
     <div>
