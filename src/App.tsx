@@ -1,22 +1,16 @@
 import React from "react";
-import "./assets/css/App.css";
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
-import Navbar from './components/Navbar';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import AdminDashboard from './views/Dashboard/AdminDashboard'
+import "./assets/css/app.css";
 function App() {
   return (
-    <div> 
-      <Header />
-      <div className="row">
-        <Main />
-      </div>
-      <div className="row">
-
-      <Navbar/>
-      </div>
-     
-      <Footer />
+    <div>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/admin" component={AdminDashboard} />
+          {/* <Redirect from="/" to="/admin" /> */}
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }
